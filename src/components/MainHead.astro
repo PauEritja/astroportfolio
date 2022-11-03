@@ -1,8 +1,8 @@
 ---
 import '../styles/global.css';
 const {
-	title = 'Jeanine White: Personal Site',
-	description = 'The personal site of Jeanine White',
+	title = 'Pau Eritja: Personal Website',
+	description = 'The personal site of Pau Eritja',
 } = Astro.props;
 ---
 
@@ -12,7 +12,10 @@ const {
 <meta name="generator" content={Astro.generator} />
 <title>{title}</title>
 
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
